@@ -40,7 +40,7 @@ public class Heap {
 			} else {
 				maxC = leftC(k);
 			}
-			if (a[maxC] > tmp) {
+			if (tmp < a[maxC]) {
 				a[k] = a[maxC];
 				k = maxC;
 			} else {
