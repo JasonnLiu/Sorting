@@ -13,7 +13,7 @@ public class Quick {
 			return;
 		int j = partition(a, left, right);
 		sort(a, left, j - 1);
-		sort(a, j + 1, right);
+		sort(a, j + 1, right); 
 	}
 
 	private static int partition(int[] a, int left, int right) {
